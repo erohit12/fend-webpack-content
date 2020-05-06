@@ -1,4 +1,4 @@
-function checkForName(inputText) {
+export function checkForName(inputText) {
     console.log("::: Running checkForName :::", inputText);
     let names = [
         "Picard",
@@ -12,3 +12,4 @@ function checkForName(inputText) {
         alert("Welcome, Captain!")
     }
 }
+
